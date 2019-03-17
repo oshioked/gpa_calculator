@@ -19,7 +19,7 @@ header h1{
     font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
 }
 
-.result{
+.subBody{
 	width: 80%;
 	margin: 0 auto;
 	margin-top: 10px;
@@ -29,14 +29,30 @@ header h1{
 	padding-bottom: 20px;
 	box-shadow: 2px 2px 15px grey;
 }
+.level select{
+	margin-top: 200px;
+	background-color: #dadad8;
+    padding: 4px;
+}
+#enterBtn{
+	margin: 10px;
+	margin-bottom: 200px;
+}
+.result{
+	display: none;
+}
 ul{
 	list-style: none;
 	padding: 0px;
 }
-li{
-	width: 80%;
+.container{
 	display: flex;
 	justify-content: space-between;
+}
+li{
+	width: 80%;
+	/*display: flex;
+	justify-content: space-between;*/
 	margin: 0 auto;
 	margin-bottom: 4px;
 	margin-top: 4px;
